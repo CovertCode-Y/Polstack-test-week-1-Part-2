@@ -1,0 +1,148 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: #e3e3e3;
+}
+
+nav{
+    background-color: #003300;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color: rgb(175, 255, 208);
+
+}
+
+nav ul li a:hover{
+    text-decoration:none;
+    color: aliceblue;
+    text-decoration:underline;
+
+
+}
+
+header{
+    background-color: #004D00;
+text-align: center;
+padding-bottom: 15px;
+}
+
+header h1{
+    color: white;
+    margin-top: 20px;
+}
+
+main{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+}
+
+
+.div-main{
+    background-color: aliceblue;
+    width: 99%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.div-main h2, .div-main p{
+    margin: 5px;
+}
+
+section{
+    background-color: aliceblue;
+    width: 99%;
+    padding: 10px;
+    border-radius: 8px;
+  
+}
+
+section h2, section p{
+    margin: 5px;
+}
+
+
+.divim-schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff00;
+}
+
+.div-schedule{
+background-color: #dcdcdc;
+border-radius: 8px;
+margin-bottom: 8px;
+padding: 8px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 50%;
+}
+
+.div-schedule a h4 , .div-schedule a p{
+    color: #752C8F;
+}
+
+
+.div-schedule:hover{
+    background-color: #cacaca;
+    }
+
+
+
+    .physical-red{
+        width: 60px;
+        background-color: #F69598;
+    padding: 1px;
+    border-radius: 6px;
+    color: #752C8F;
+    }
+
+    .physical-blue{
+        width: 60px;
+        background-color:#99CCFF;
+    padding: 1px;
+    border-radius: 6px;
+    color: #752C8F;
+    }
+
+    .physical-yelow{
+        width: 60px;
+        background-color:#FFFF99;
+    padding: 1px;
+    border-radius: 6px;
+    color: #752C8F;
+    }
+
+
+
+
+.div-right p{
+color: #4f4f4f7d;
+    }
+
+
+    footer{
+        background-color: #004D00;
+        text-align: center;
+        padding: 15px;
+        color: white;
+    }
